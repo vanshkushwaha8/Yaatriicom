@@ -1,0 +1,28 @@
+/* Review.css */
+
+.review-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+  }
+  
+  .review-content {
+    margin-top: 20px;
+  }
+  
+  .review-content h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .review-content p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* You can add more styles as needed */
+  

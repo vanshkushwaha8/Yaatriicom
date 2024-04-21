@@ -1,0 +1,136 @@
+/* Tour Package Details Page */
+.tour-package-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .ProductDiv {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    height: 450px;
+  }
+  
+  .product-images {
+    width: 65%;
+    height: 100%;
+  }
+  
+  .background-imageP img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire container */
+  }
+  
+  .background-imageS {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .background-imageS img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* Ensures the image covers the entire container */
+  }
+  
+  .product-detailS {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .product-detailS p {
+    margin-bottom: 10px;
+  }
+  
+  .product-detailS button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .product-detailS button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Package Details Section */
+  .package-details {
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .package-details h2 {
+    margin-bottom: 10px;
+  }
+  
+  .package-details p {
+    margin-bottom: 8px;
+  }
+  
+  .package-details select {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .book-now-button {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-now-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Tour Description Section */
+  .tour-description {
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tour-description h2 {
+    margin-bottom: 10px;
+  }
+  
+  .tour-description p {
+    margin-bottom: 8px;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .background-image {
+      max-height: 300px; /* Adjust as needed */
+    }
+    
+    .package-details,
+    .tour-description {
+      padding: 15px;
+    }
+  }
+  

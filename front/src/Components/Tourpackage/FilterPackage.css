@@ -1,0 +1,157 @@
+.producttt {
+    width: 100%;
+    
+  }
+  .containert {
+    display: flex;
+    width: 100%;
+  }
+  
+  .left {
+    width: 20%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    color: black;
+  }
+  .star.blink {
+    animation: blink-animation 1s infinite alternate;
+  }
+  
+  @keyframes blink-animation {
+    from {
+      color: white;
+    }
+    to {
+      color: gold;
+    }
+  }
+  
+  
+  .menu-button {
+    display: none;
+  }
+  
+  .right {
+    width: 80%;
+    background-color: #e0e0e0;
+    padding: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .product-card {
+    width: calc(100% - 20px);
+    max-width: calc(50% - 5px);
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: 250px;
+  }
+  .product-card h3 ,p{
+    color: black;
+  }
+  /* #prduct{
+    background-image:url(../Assets/product_1.jpg) ;
+    background-size: cover;
+    background-position: center;
+    
+    cursor: pointer;
+    transition: all 0.4s ease;
+  } */
+  .add-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  
+ .add-button:hover {
+    background-color: #45a049;
+  }
+  #check-review{
+    margin-top: 10px;
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 767px) {
+    .left {
+      display: none; /* Hide left side by default on mobile */
+    }
+    .menu-button {
+      display: block; /* Show menu button on mobile */
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      z-index: 1000;
+    }
+    .container.show-left .left {
+      display: block; /* Show left side when .show-left class is added */
+    }
+    .container.show-left .right {
+      width: 100%; /* Make right side occupy full width when left side is shown */
+    }
+  
+    /* Adjust product card width for mobile */
+    .product-card {
+      width: calc(50% - 20px); /* Two cards per row on mobile */
+    }
+  }
+  
+  /* Media query for tablets and larger */
+  @media (min-width: 768px) {
+    /* Adjust product card width for tablets and larger screens */
+    .product-card {
+      width: calc(
+        50% - 20px
+      ); /* Two cards per row on tablets and larger screens */
+    }
+  }
+  @media (max-width: 767px) {
+    .containert {
+      flex-direction: column; /* Change to column layout on mobile */
+    }
+  
+    .left {
+      width: 100%; /* Take full width on mobile */
+      display: none; /* Hide left side by default on mobile */
+    }
+  
+    .menu-button {
+      display: block; /* Show menu button on mobile */
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      z-index: 1000;
+    }
+  
+    .right {
+      width: 100%; /* Take full width on mobile */
+      padding: 20px; /* Adjust padding for mobile */
+    }
+  
+    .product-card {
+      width: calc(100% - 20px); /* Full width on mobile */
+      max-width: 100%; /* Full width on mobile */
+      margin-bottom: 10px; /* Adjust margin for mobile */
+    }
+  }
+  
+  
+  /* Media query for smaller screens */
+  @media (max-width: 767px) {
+    div.pagination button{
+        margin: 5px;
+    }
+  }

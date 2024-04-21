@@ -1,0 +1,154 @@
+/* Common styles for all devices */
+.container {
+  height: 800px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.container-para {
+  color: #d1a2a2; 
+  display: inline-block;
+  padding: 50px;
+  font-size: 3rem;  
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.container-text {
+  color: rgb(215, 22, 118); 
+  margin-top: 65px;
+  margin-left: 90px;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.containers-boxs {
+  display: flex;
+  justify-content: center;
+}
+
+.containers-box {
+  position: relative;
+  width: 120px;
+  height: 40px;
+  margin: 10px;
+  background-color: #007bff;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.video-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out; 
+}
+
+.video-link:hover {
+  transform: scale(1.1); 
+  color: #0a0a0a;
+  border-color: #007bff;
+}
+
+.containers-box:hover {
+  background-color: #00b30c;
+}
+
+.video-player-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.video-player {
+  width: 640px; /* Adjust the width and height as needed */
+  height: 360px;
+}
+
+#box1 {
+    background-image:url('../../../../Assets/pg1.jpg') ;
+    background-size: cover;
+    background-position: center;
+    width: 120px;
+    height: 220px;
+  }
+  #box2{
+    background-image:url('../../../../Assets/pg2.jpg') ;
+    background-size: cover;
+    background-position: center;
+    width: 120px;
+    height: 220px;
+  }
+  #box3 {
+    background-image:url('../../../../Assets/pg3.jpg') ;
+    background-size: cover;
+    background-position: center;
+    width: 120px;
+    height: 220px;
+  }
+  #box4 {
+    background-image:url('../../../../Assets/pg4.jpg') ;
+    background-size: cover;
+    background-position: center;
+    width: 120px;
+    height: 220px;
+  }
+  #box5  {
+    background-image:url('../../../../Assets/pg5.jpg') ;
+    background-size: cover;
+    background-position: center;
+    width: 120px;
+    height: 220px;
+  }
+
+/* Media queries for responsiveness */
+
+@media screen and (max-width: 768px) {
+  .container-para {
+    font-size: 2rem;
+    padding: 30px;
+  }
+  
+  .container-text {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 0.8em;
+  }
+
+  .containers-box {
+    width: 100px;
+    height: 160px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container-para {
+    font-size: 1.5rem;
+    padding: 20px;
+  }
+  
+  .container-text {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 0.7em;
+  }
+
+  .containers-box {
+    width: 80px;
+    height: 120px;
+  }
+}

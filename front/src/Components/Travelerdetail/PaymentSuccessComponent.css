@@ -1,0 +1,41 @@
+/* PaymentSuccessComponent.css */
+.payment-success-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #4caf50;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 128, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .payment-success-container:hover {
+    transform: scale(1.02);
+  }
+  
+  .success-message {
+    text-align: center;
+    color: #4caf50;
+  }
+  
+  .details-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .changes-details,
+  .tour-details {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .changes-details h3,
+  .tour-details h3 {
+    color: #4caf50;
+  }
+  
+  /* Add more styles as needed for a better visual presentation */
+  

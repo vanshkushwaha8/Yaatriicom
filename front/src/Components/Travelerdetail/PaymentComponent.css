@@ -1,0 +1,46 @@
+/* PaymentComponent.css */
+.payment-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #007bff;
+}
+
+.qr-code {
+  margin: 20px 0;
+}
+
+.qr-code img {
+  max-width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.upi-id {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.Payment-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Payment-button:hover {
+  background-color: #0056b3;
+}

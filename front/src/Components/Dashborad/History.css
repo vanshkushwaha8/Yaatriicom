@@ -1,0 +1,48 @@
+/* History.css */
+
+.history-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+  }
+  
+  .history-container h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .history-content {
+    margin-top: 20px;
+  }
+  
+  .history-content p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .activity-list {
+    margin-top: 20px;
+  }
+  
+  .activity-item {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .activity-item h3 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .activity-item p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  

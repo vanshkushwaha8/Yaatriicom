@@ -1,0 +1,51 @@
+.transport-selector {
+    margin-top: 20px;
+  }
+  
+  .transport-selector p {
+    margin-bottom: 10px;
+  }
+  
+  .transport-selector select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  .transport-selector .reset {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  
+  .transport-selector .reset-button {
+    padding: 8px 16px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .transport-selector .reset-button:hover {
+    background-color: #c82333;
+  }
+  
+  .transport-selector .submit-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .transport-selector .submit-button:hover {
+    background-color: #0056b3;
+  }
+  

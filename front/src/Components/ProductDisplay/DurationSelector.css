@@ -1,0 +1,77 @@
+.duration-selector {
+  margin-top: 20px;
+}
+
+.duration-selector p {
+  margin-bottom: 10px;
+}
+
+.duration-selector select,
+.duration-selector button {
+  margin-bottom: 10px;
+}
+
+.duration-selector button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.duration-selector button:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the "Done!" message */
+.duration-selector .done-message {
+  margin-bottom: 10px;
+  color: green;
+  font-weight: bold;
+}
+
+/* Style for the reset button */
+.duration-selector .reset-button {
+  padding: 8px 16px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.duration-selector .reset-button:hover {
+  background-color: #c82333;
+}
+
+/* Style for the submit button */
+.duration-selector .submit-button {
+  padding: 8px 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.duration-selector .submit-button:hover {
+  background-color: #218838;
+}
+/* CSS for DatePicker placeholder text */
+.react-datepicker__input-container input::placeholder {
+  color: #999; /* Placeholder text color */
+  font-style: italic; /* Italicize placeholder text */
+}
+
+/* Additional styles for DatePicker input */
+.react-datepicker__input-container input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+  

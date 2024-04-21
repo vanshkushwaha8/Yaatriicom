@@ -1,0 +1,29 @@
+.support-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+  }
+  
+  .support-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .support-section {
+      width: 90%;
+    }
+  
+    .section-title {
+      font-size: 24px;
+    }
+  }
+  
